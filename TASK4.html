@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--this is an assesible web page with specific requirements-->
+<head>
+  
+  
+  <title>Accessible Web Application</title>
+  
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <h1>ACCESSIBLE WEB APPLICATION </h1>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#tech-stack">Tech Stack</a></li>
+        <li><a href="#docs">Docs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <section aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>
+        Build or improve a web app focusing on accessibility standards (WCAG),
+        ensuring keyboard navigation, screen reader support, and semantic HTML.
+      </p>
+    </section>
+
+    <section id="tech-stack" aria-labelledby="tech-heading">
+      <h2 id="tech-heading">Tech Stack (optional)</h2>
+      <ul>
+        <li>Any frontend framework/library or Vanilla JS</li>
+        <li>ARIA attributes</li>
+        <li>Semantic HTML</li>
+        <li>Axe or Lighthouse for testing</li>
+      </ul>
+    </section>
+
+    <section id="requirements" aria-labelledby="req-heading">
+      <h2 id="req-heading">Requirements</h2>
+      <ul>
+        <li>Ensure all interactive elements are keyboard accessible</li>
+        <li>Use proper ARIA roles and labels</li>
+        <li>Use semantic HTML tags (header, nav, main, footer, etc.)</li>
+        <li>Test accessibility with Lighthouse or Axe and fix issues</li>
+        <li>Provide skip navigation link</li>
+      </ul>
+    </section>
+
+    <section id="docs" aria-labelledby="docs-heading">
+      <h2 id="docs-heading">Docs (optional)</h2>
+      <ul>
+        <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG Guidelines</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" target="_blank">ARIA</a></li>
+        <li><a href="https://developer.chrome.com/docs/lighthouse/accessibility/" target="_blank">Lighthouse Accessibility</a></li>
+        <li><a href="https://www.deque.com/axe/" target="_blank">Axe</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Accessible Web Initiative</p>
+    <a href="https:// WCAG Guidelines · ARIA · Lighthouse Accessibility · Axe">wcag Guidelines.ARIA.</a>
+  </footer>
+</body>
+</html>
+ 
